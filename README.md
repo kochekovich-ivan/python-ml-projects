@@ -6,10 +6,8 @@ It contains notes, solved exercises, and small projects using **NumPy, pandas, m
 ---
 
 ## Structure
-- `notes/` — study notes and summaries
 - `exercises/` — weekly practice tasks
-- `projects/` — mini-projects (one per week or per topic)
-- `requirements.txt` — dependencies for reproducibility
+- `projects/` — mini-projects
 
 ---
 

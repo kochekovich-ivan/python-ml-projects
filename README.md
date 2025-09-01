@@ -7,7 +7,6 @@ It contains notes, solved exercises, and small projects using **NumPy, pandas, m
 
 ## Structure
 - `exercises/` — weekly practice tasks
-- `projects/` — mini-projects
 
 ---
 

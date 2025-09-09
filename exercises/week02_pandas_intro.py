@@ -1,4 +1,19 @@
-3 = pd.Series(a, ["first", "second", "third", "fourth"])
+import pandas as pd
+
+# create a list
+a = [1, 2, 3, 4]
+
+# create a Series from list
+ser = pd.Series(a)
+print(ser)          # print entire Series
+print(ser[2])       # access by position → 3
+
+# create Series from range (10, 20, ..., 100)
+ser2 = pd.Series(range(10, 101, 10))
+print(ser2)
+
+# create Series with custom index
+ser3 = pd.Series(a, ["first", "second", "third", "fourth"])
 print(ser3)
 print(ser3["first"])  # access by label → 1
 print(ser3[0])        # access by position → 1
